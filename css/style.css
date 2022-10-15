@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightgrey;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: right;
+    gap: 20px;
+    
+}
+.navBar li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.tituloprincipal{
+    font-size: 80px;
+    text-align: center;
+}
+
+
+main{
+    background-color: bisque;
+}
+.imgprincipal{
+    background-image: url("../img/Rectangle\ 2.png");
+    width: 100%;
+    height: 400px;
+}
+.ofertasindex h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.idcindex img{
+    width: 150%;
+    height: 150px;
+}
+
+
+.padreof{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.idcindex div a img{
+    width: 10%;
+    height: 20px;
+}
+.novedades{
+    text-align: center;
+}
+.seccionni{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.ningr img{
+    width: 150%;
+    height: 150px;
+    width: 100%;
+}
+.mainmujer{
+    width: 100%;
+    height: 480px;
+}
+.seccionmujer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fotomuj{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.fotomuj img{
+    width: 30%;
+    height: 380px;
+}
+.seccionhombre{
+    display: flex;
+justify-content: center;
+    width: 100%;
+    height: 480px;
+}
+
+.seccionhombre img{
+    width: 30%;
+    height: 380px;
+}
+
+
+.sobrenos img{
+    float: left;
+}
+.sobrenos p{
+    clear: both;
+}
+
+
+.sobrenos img{
+    width: 50%;
+    height: 400px;
+}
+.mainnosotros{
+    width: 100%;
+    height: 480px;
+}
+
+
+.formupadre{
+    width: 100%;
+    height: 480px;
+}
+.formupadre legend{
+    text-align: center;
+}
+
+.formu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.formu input{
+    width: 50%;
+    height: 50px;
+
+}
+
+
+
+
+
+footer{
+    background-color: black;
+}
+
+.iconosredes{
+    background-color: lightblue;
+}
+.iconosredes li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.iconosredes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
