@@ -27,6 +27,7 @@ header{
 
 main{
     background-color: bisque;
+    width: 100%;
 }
 .imgprincipal{
     background-image: url("../img/Rectangle\ 2.png");
@@ -40,21 +41,58 @@ main{
 
 
 
-.idcindex img{
+.idcindex-1 img{
     width: 150%;
     height: 150px;
+}
+
+.idcindex-2 img{
+    width: 150%;
+    height: 150px;
+}
+
+.idcindex-3 img{
+    width: 150%;
+    height: 150px;
+    
+}
+
+.idcindex-4 img{
+    width: 100%;
+    height: 150px;
+    
+    
+    
 }
 
 
 .padreof{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
+    width: 99%;
+    justify-content: center;
+    
+    
+    
 }
 
 
-.idcindex div a img{
+.idcindex-1 div a img{
+    width: 10%;
+    height: 20px;
+}
+
+.idcindex-2 div a img{
+    width: 10%;
+    height: 20px;
+}
+
+.idcindex-3 div a img{
+    width: 10%;
+    height: 20px;
+}
+
+.idcindex-4 div a img{
     width: 10%;
     height: 20px;
 }
@@ -67,7 +105,17 @@ main{
     justify-content: space-evenly;
     width: 100%;
 }
-.ningr img{
+.ningr-1 img{
+    width: 150%;
+    height: 150px;
+    width: 100%;
+}
+.ningr-2 img{
+    width: 150%;
+    height: 150px;
+    width: 100%;
+}
+.ningr-3 img{
     width: 150%;
     height: 150px;
     width: 100%;
@@ -75,22 +123,45 @@ main{
 .mainmujer{
     width: 100%;
     height: 480px;
+    overflow: hidden;
 }
 .seccionmujer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-}
-.fotomuj{
-    display: flex;
+    float: left;
     width: 100%;
-    justify-content: space-evenly;
+    
 }
+.fotomuj-1{
+    display: flex;
+    height: 380px;
 
-.fotomuj img{
-    width: 30%;
+}
+.fotomuj-2{
+    display: flex;
+    height: 380px;
+
+}
+.fotomuj-3{
+    display: flex;
+    height: 380px;
+
+}
+.fotomuj-4{
+    display: flex;
+    height: 380px;
+    
+}
+.fotomuj-5{
+    display: flex;
     height: 380px;
 }
+
+
+
+
+
+
 .seccionhombre{
     display: flex;
 justify-content: center;
@@ -153,6 +224,9 @@ footer{
 .iconosredes{
     background-color: lightblue;
 }
+.contactanos{
+    text-align: center;
+}
 .iconosredes li{
     list-style: none;
     width: 100%;
@@ -166,3 +240,147 @@ footer{
     
 }
 
+
+
+.padreof{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas:
+    "idcindex-1 idcindex-2 idcindex-3 idcindex-4"
+    ;
+}
+
+@media screen and (max-width: 768px){
+    .padreof{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "idcindex-1 idcindex-2"
+        "idcindex-3 idcindex-4"
+        ;
+    }
+
+.idcindex-1{
+    grid-area: idcindex-1;
+    width: 50%;
+    height: 50px;
+}
+.idcindex-2{
+    grid-area: idcindex-2;
+    width: 50%;
+    height: 50px;
+}
+.idcindex-3{
+    grid-area: idcindex-3;
+    width: 50%;
+    height: 50px;
+}
+.idcindex-4{
+    grid-area: idcindex-4;
+    width: 75%;
+}
+}
+
+
+/*mobileindex.html*/
+.seccionni{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "ningr-1 ningr-2 ningr-3"
+    ;
+}
+@media screen and (max-width: 576px){
+    .seccionni{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "ningr-1"
+    "ningr-2"
+    "ningr-3"
+    ;
+    }
+    .ningr-1{
+        grid-area: ningr-1;
+        width: 50%;
+        
+    }
+    .ningr-2{
+        grid-area: ningr-2;
+        width: 50%;
+        height: 50px;
+    }
+    .ningr-3{
+        grid-area: ningr-3;
+        width: 50%;
+        height: 50px;
+    }
+}
+    .seccionmujer{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+        "fotomuj-1 fotomuj-2 fotomuj-3 fotomuj-4 fotomuj-5"
+        ;
+    }
+    @media screen and (max-width: 768px){
+        .seccionmujer{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas: 
+            "fotomuj-1 fotomuj-2 fotomuj-3"
+            "fotomuj-4 fotomuj-5"
+            
+            ;
+        }
+        .fotomuj-1{
+            grid-area: fotomuj-1;
+        }
+        .fotomuj-2{
+            grid-area: fotomuj-2;
+        }
+        .fotomuj-3{
+            grid-area: fotomuj-3;
+        }
+        .fotomuj-4{
+            grid-area: fotomuj-4;
+        }
+        .fotomuj-5{
+            grid-area: fotomuj-5;
+        }
+
+    }
+
+
+    /*vista mobilemujer*/
+    @media screen and (max-width: 576px){
+        .seccionmujer{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-areas: 
+            "fotomuj-1"
+            "fotomuj-2"
+            "fotomuj-3"
+            "fotomuj-4"
+            "fotomuj-5"
+            ;
+        }
+        .fotomuj-1{
+            grid-area: fotomuj-1;
+        }
+        .fotomuj-2{
+            grid-area: fotomuj-2;
+        }
+        .fotomuj-3{
+            grid-area: fotomuj-3;
+        }
+        .fotomuj-4{
+            grid-area: fotomuj-4;
+        }
+        .fotomuj-5{
+            grid-area: fotomuj-5;
+        }
+    }
