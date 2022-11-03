@@ -1,0 +1,57 @@
+main {
+    background-color: bisque;
+    width: 100%;
+  }
+  
+  .imgprincipal {
+    background-image: url("../img/Rectangle\ 2.png");
+    width: 100%;
+    height: 400px;
+  }
+  
+  .ofertasindex h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .idcindex-1 img, .idcindex-2 img, .idcindex-3 img {
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .idcindex-4 img {
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .padreof {
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    justify-content: center;
+  }
+  
+  .idcindex-1 div a img, .idcindex-2 div a img, .idcindex-3 div a img, .idcindex-4 div a img {
+    @include medidas(30%, 20px, none, none); /*mixins*/
+  }
+  
+  .novedades {
+    text-align: center;
+  }
+  
+  .seccionni {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .ningr-1 img, .ningr-2 img, .ningr-3 img {
+    width: 150%;
+    height: 150px;
+    width: 100%;
+  }

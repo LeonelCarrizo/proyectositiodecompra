@@ -1,0 +1,29 @@
+@media (max-width:768px){
+    .idcindex-1 img, .idcindex-2 img, .idcindex-3 img {
+        width: 50%;
+        height: 150px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      
+      .idcindex-4 img {
+        width: 50%;
+        height: 150px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      
+      .padreof {
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        justify-content: center;
+      }
+      
+      .idcindex-1 div a img, .idcindex-2 div a img, .idcindex-3 div a img, .idcindex-4 div a img {
+        @include medidas(5%, 10px, none, none); /*mixins*/
+        flex-direction: column;
+      }
+}

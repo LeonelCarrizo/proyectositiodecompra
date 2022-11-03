@@ -1,386 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    background-color: lightgrey;
-}
-.navBar{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: right;
-    gap: 20px;
-    
-}
-.navBar li a{
+header {
+  background-color: lightgrey; }
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: right;
+  gap: 20px; }
+  .navBar li a {
     text-decoration: none;
-    font-weight: bold;
-}
-.tituloprincipal{
-    font-size: 80px;
-    text-align: center;
-}
+    font-weight: bold; }
 
+.tituloprincipal {
+  font-size: 80px;
+  text-align: center; }
 
-main{
-    background-color: bisque;
-    width: 100%;
-}
-.imgprincipal{
-    background-image: url("../img/Rectangle\ 2.png");
-    width: 100%;
-    height: 400px;
-}
-.ofertasindex h2{
-    text-align: center;
-    font-size: 50px;
-}
+main {
+  background-color: bisque;
+  width: 100%; }
 
+.imgprincipal {
+  background-image: url("../img/Rectangle 2.png");
+  width: 100%;
+  height: 400px; }
 
+.ofertasindex h2 {
+  text-align: center;
+  font-size: 50px; }
 
-.idcindex-1 img{
-    width: 150%;
-    height: 150px;
-}
+.idcindex-1 img, .idcindex-2 img, .idcindex-3 img {
+  width: 100%;
+  height: 200px;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
 
-.idcindex-2 img{
-    width: 150%;
-    height: 150px;
-}
+.idcindex-4 img {
+  width: 100%;
+  height: 200px;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
 
-.idcindex-3 img{
-    width: 150%;
-    height: 150px;
-    
-}
+.padreof {
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  justify-content: center; }
 
-.idcindex-4 img{
-    width: 100%;
-    height: 150px;
-    
-    
-    
-}
+.idcindex-1 div a img, .idcindex-2 div a img, .idcindex-3 div a img, .idcindex-4 div a img {
+  width: 30%;
+  height: 20px;
+  padding: none;
+  margin: none;
+  /*mixins*/ }
 
+.novedades {
+  text-align: center; }
 
-.padreof{
-    display: flex;
-    flex-direction: row;
-    width: 99%;
-    justify-content: center;
-    
-    
-    
-}
+.seccionni {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%; }
 
+.ningr-1 img, .ningr-2 img, .ningr-3 img {
+  width: 150%;
+  height: 150px;
+  width: 100%; }
 
-.idcindex-1 div a img{
-    width: 10%;
-    height: 20px;
-}
+.mainmujer {
+  width: 100%;
+  height: 480px;
+  overflow: hidden; }
 
-.idcindex-2 div a img{
-    width: 10%;
-    height: 20px;
-}
+.seccionmujer {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 100%; }
 
-.idcindex-3 div a img{
-    width: 10%;
-    height: 20px;
-}
+.fotomuj-1, .fotomuj-2, .fotomuj-3, .fotomuj-4, .fotomuj-5 {
+  display: flex;
+  height: 380px; }
 
-.idcindex-4 div a img{
-    width: 10%;
-    height: 20px;
-}
-.novedades{
-    text-align: center;
-}
-.seccionni{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-}
-.ningr-1 img{
-    width: 150%;
-    height: 150px;
-    width: 100%;
-}
-.ningr-2 img{
-    width: 150%;
-    height: 150px;
-    width: 100%;
-}
-.ningr-3 img{
-    width: 150%;
-    height: 150px;
-    width: 100%;
-}
-.mainmujer{
-    width: 100%;
-    height: 480px;
-    overflow: hidden;
-}
-.seccionmujer{
-    display: flex;
-    flex-direction: row;
-    float: left;
-    width: 100%;
-    
-}
-.fotomuj-1{
-    display: flex;
-    height: 380px;
-
-}
-.fotomuj-2{
-    display: flex;
-    height: 380px;
-
-}
-.fotomuj-3{
-    display: flex;
-    height: 380px;
-
-}
-.fotomuj-4{
-    display: flex;
-    height: 380px;
-    
-}
-.fotomuj-5{
-    display: flex;
-    height: 380px;
-}
-
-
-
-
-
-
-.seccionhombre{
-    display: flex;
-justify-content: center;
-    width: 100%;
-    height: 480px;
-}
-
-.seccionhombre img{
+.seccionhombre {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 480px; }
+  .seccionhombre img {
     width: 30%;
-    height: 380px;
-}
+    height: 380px; }
 
+.sobrenos img {
+  float: left; }
 
-.sobrenos img{
-    float: left;
-}
-.sobrenos p{
-    clear: both;
-}
+.sobrenos p {
+  clear: both; }
 
+.sobrenos img {
+  width: 50%;
+  height: 400px; }
 
-.sobrenos img{
+.mainnosotros {
+  width: 100%;
+  height: 480px; }
+
+.formupadre {
+  width: 100%;
+  height: 480px; }
+  .formupadre legend {
+    text-align: center; }
+
+.formu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+  .formu input {
     width: 50%;
-    height: 400px;
-}
-.mainnosotros{
+    height: 50px; }
+
+footer {
+  background-color: black; }
+
+.iconosredes {
+  background-color: lightblue; }
+
+.contactanos {
+  text-align: center; }
+
+.iconosredes {
+  display: flex;
+  gap: 20px;
+  justify-content: center; }
+  .iconosredes li {
+    list-style: none;
     width: 100%;
-    height: 480px;
-}
+    text-align: center; }
 
-
-.formupadre{
-    width: 100%;
-    height: 480px;
-}
-.formupadre legend{
-    text-align: center;
-}
-
-.formu{
+@media (max-width: 768px) {
+  .idcindex-1 img, .idcindex-2 img, .idcindex-3 img {
+    width: 50%;
+    height: 150px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .idcindex-4 img {
+    width: 50%;
+    height: 150px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .padreof {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
-}
-.formu input{
-    width: 50%;
-    height: 50px;
-
-}
-
-
-
-
-
-footer{
-    background-color: black;
-}
-
-.iconosredes{
-    background-color: lightblue;
-}
-.contactanos{
-    text-align: center;
-}
-.iconosredes li{
-    list-style: none;
-    width: 100%;
-    text-align: center;
-}
-
-.iconosredes{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    
-}
-
-
-
-.padreof{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(1,1fr);
-    grid-template-areas:
-    "idcindex-1 idcindex-2 idcindex-3 idcindex-4"
-    ;
-}
-
-@media screen and (max-width: 768px){
-    .padreof{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
-        "idcindex-1 idcindex-2"
-        "idcindex-3 idcindex-4"
-        ;
-    }
-
-.idcindex-1{
-    grid-area: idcindex-1;
-    width: 50%;
-    height: 50px;
-}
-.idcindex-2{
-    grid-area: idcindex-2;
-    width: 50%;
-    height: 50px;
-}
-.idcindex-3{
-    grid-area: idcindex-3;
-    width: 50%;
-    height: 50px;
-}
-.idcindex-4{
-    grid-area: idcindex-4;
-    width: 75%;
-}
-}
-
-
-/*mobileindex.html*/
-.seccionni{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1,1fr);
-    grid-template-areas: 
-    "ningr-1 ningr-2 ningr-3"
-    ;
-}
-@media screen and (max-width: 576px){
-    .seccionni{
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-areas: 
-    "ningr-1"
-    "ningr-2"
-    "ningr-3"
-    ;
-    }
-    .ningr-1{
-        grid-area: ningr-1;
-        width: 50%;
-        
-    }
-    .ningr-2{
-        grid-area: ningr-2;
-        width: 50%;
-        height: 50px;
-    }
-    .ningr-3{
-        grid-area: ningr-3;
-        width: 50%;
-        height: 50px;
-    }
-}
-    .seccionmujer{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-areas: 
-        "fotomuj-1 fotomuj-2 fotomuj-3 fotomuj-4 fotomuj-5"
-        ;
-    }
-    @media screen and (max-width: 768px){
-        .seccionmujer{
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            grid-template-areas: 
-            "fotomuj-1 fotomuj-2 fotomuj-3"
-            "fotomuj-4 fotomuj-5"
-            
-            ;
-        }
-        .fotomuj-1{
-            grid-area: fotomuj-1;
-        }
-        .fotomuj-2{
-            grid-area: fotomuj-2;
-        }
-        .fotomuj-3{
-            grid-area: fotomuj-3;
-        }
-        .fotomuj-4{
-            grid-area: fotomuj-4;
-        }
-        .fotomuj-5{
-            grid-area: fotomuj-5;
-        }
-
-    }
-
-
-    /*vista mobilemujer*/
-    @media screen and (max-width: 576px){
-        .seccionmujer{
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(5, 1fr);
-            grid-template-areas: 
-            "fotomuj-1"
-            "fotomuj-2"
-            "fotomuj-3"
-            "fotomuj-4"
-            "fotomuj-5"
-            ;
-        }
-        .fotomuj-1{
-            grid-area: fotomuj-1;
-        }
-        .fotomuj-2{
-            grid-area: fotomuj-2;
-        }
-        .fotomuj-3{
-            grid-area: fotomuj-3;
-        }
-        .fotomuj-4{
-            grid-area: fotomuj-4;
-        }
-        .fotomuj-5{
-            grid-area: fotomuj-5;
-        }
-    }
+    width: 99%;
+    justify-content: center; }
+  .idcindex-1 div a img, .idcindex-2 div a img, .idcindex-3 div a img, .idcindex-4 div a img {
+    width: 5%;
+    height: 10px;
+    padding: none;
+    margin: none;
+    /*mixins*/
+    flex-direction: column; } }

@@ -1,0 +1,22 @@
+header {
+    background-color: lightgrey;
+  }
+  
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: right;
+    gap: 20px;
+  
+    li a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+  
+  
+  .tituloprincipal {
+    font-size: 80px;
+    text-align: center;
+  }

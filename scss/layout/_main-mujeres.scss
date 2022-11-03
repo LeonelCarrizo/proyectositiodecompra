@@ -1,0 +1,17 @@
+.mainmujer {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+  }
+  
+  .seccionmujer {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+  }
+  
+  .fotomuj-1, .fotomuj-2, .fotomuj-3, .fotomuj-4, .fotomuj-5 {
+    display: flex;
+    height: 380px;
+  }

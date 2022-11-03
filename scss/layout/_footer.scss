@@ -1,0 +1,23 @@
+footer {
+    background-color: black;
+  }
+  
+  .iconosredes {
+    background-color: lightblue;
+  }
+  
+  .contactanos {
+    text-align: center;
+  }
+  
+  .iconosredes {
+    li {
+      list-style: none;
+      width: 100%;
+      text-align: center;
+    }
+  
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
