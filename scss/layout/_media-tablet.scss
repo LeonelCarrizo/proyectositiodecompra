@@ -1,29 +1,127 @@
 @media (max-width:768px){
-    .idcindex-1 img, .idcindex-2 img, .idcindex-3 img {
-        width: 50%;
+    .idcindex-1 img, .idcindex-2 img {
+        width: 100%;
         height: 150px;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
+        
       }
       
-      .idcindex-4 img {
-        width: 50%;
+      .idcindex-3 img, .idcindex-4 img {
+        width: 100%;
         height: 150px;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
       }
       
       .padreof {
         display: flex;
-        flex-direction: column;
         width: 99%;
-        justify-content: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        
+        
       }
       
       .idcindex-1 div a img, .idcindex-2 div a img, .idcindex-3 div a img, .idcindex-4 div a img {
-        @include medidas(5%, 10px, none, none); /*mixins*/
-        flex-direction: column;
+        @include medidas(10%, 15px, none, none); /*mixins*/
+        
       }
+}
+
+@media (max-width:768px){
+  .grid-container{
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "foto-1 foto-2"
+    "foto-3 foto-4"
+    ;
+    .foto-1{
+      grid-area: foto-1;
+      width: 50%;
+      height: 150px;
+    }
+    .foto-2{
+      grid-area: foto-2;
+      width: 50%;
+      height: 150px;
+
+    }
+    .foto-3{
+      grid-area: foto-3;
+      width: 50%;
+      height: 150px;
+
+    }
+    .foto-4{
+      grid-area: foto-4;
+      width: 50%;
+      height: 150px;
+
+    }
+    
+  }
+  
+}
+
+@media (max-width:768px){
+  .containerhombre{
+    display: grid;
+    margin-left: 100px;
+    justify-content: center;
+    width: 70%;
+    height: 150px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "hombre-1 hombre-2"
+    "hombre-3 hombre-4"
+    ;
+  .hombre-1{
+    grid-area: hombre-1;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+
+  }
+  .hombre-2{
+    grid-area:hombre-2;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+  }
+  .hombre-3{
+    grid-area: hombre-3;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+ 
+  }
+  .hombre-4{
+    grid-area: hombre-4;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+  }
+}
+}
+@media (max-width:768px){
+  .sobrenos{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  }
+  .imgnosotros{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+  }
+  .pnosotros{
+    margin-top: 30px;
+  }
 }

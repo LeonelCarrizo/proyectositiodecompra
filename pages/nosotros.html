@@ -5,46 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <div><!--Logo   (li>a)*4-->
+        <nav class="navbar navbar-expand-lg bg-light">
           <img src="../img/Gucci-PNG-Transparent-Image.png" style="width: 100px;"  />
-        </div>
-        <nav>
-          <ul class="navBar">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./mujer.html">Mujeres</a></li>
-            <li><a href="./hombre.html">Hombres</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./formulario.html">Contacto</a></li>
-          </ul>
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"   href="./mujer.html">Mujer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./hombre.html">Hombre</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./formulario.html">Contacto</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
         </nav>
+    
         <div>
           <a href=""><img src="" alt="" /></a>
         </div>
       </header>
 
-      <main>
-        <section class="mainnosotros">
+      <main class="mainnosotros">
             <div class="sobrenos">
-                <img src="../img/tiendagucci.jpg" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sit culpa aliquid officia molestias ratione labore nostrum
-                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta labore voluptatibus deserunt. Reiciendis qui
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nam eligendi assumenda quisquam laborum.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quaerat ipsa totam nihil unde! Impedit, reprehenderit quaerat.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, tempore labore tenetur sed maxime eum
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa maiores voluptatem quia excepturi, ea labore
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi rerum minus, cupiditate maxime eius sequi beatae tempore</p>
-            </div>
-        </section>
+                <img class="imgnosotros" src="../img/tiendagucci.jpg" alt="">
+                <p class="pnosotros"> Nosotros somos una firma italiana de <b>productos de lujo</b> con sede en Florencia, capital de la región de la Toscana.
+                  Se dedica al diseño y fabricación de artículos de moda tales como <b>ropa, zapatos, joyas, bolsos, relojes y perfumes.</b>
+                  la misión de la empresa hacia la búsqueda constante de la <b>inovacón y la calidad</b>, redefiniendo los cánones del lujo italiano y <b>adaptándolos a las modas y tendencias del siglo XXI.</b>
+                Los valores que maneja nuestra empresa son los siguentes Personas.
+                <b>social.
+                Diversidad e inclusión.
+                Diversidad.</b></p>
+                </div>
       </main>
 
 
       <footer>
         <section>
-          <h2>Contactanos</h2>
+          <h2 class="contactanos">Contactanos</h2>
           <ul class="iconosredes">
             <li>Direccion: av. cabildo 250</li> 
             <li><a href="https://www.whatsapp.com/?lang=es"><img src="../img/tel.png" alt="1155735754"></a></li>
@@ -53,5 +69,6 @@
           </ul>
         </section>
       </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

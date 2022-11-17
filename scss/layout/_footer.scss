@@ -1,23 +1,32 @@
 footer {
     background-color: black;
+    width: 100%;
+    height: 50px;
+    
+    
+    
   }
   
   .iconosredes {
-    background-color: lightblue;
-  }
-  
-  .contactanos {
-    text-align: center;
-  }
-  
-  .iconosredes {
-    li {
-      list-style: none;
-      width: 100%;
-      text-align: center;
-    }
-  
+    background-color: lightpink;
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: center;    
+    
+
   }
+  
+
+  
+   .iconosredes,li {
+      display: flex;
+      list-style: none;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+
+    }
+  
+  
+  

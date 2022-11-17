@@ -1,0 +1,159 @@
+@media screen and (max-width: 576px){
+    .idcindex-1 img, .idcindex-2 img {
+        width: 50%;
+        height: 150px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+        
+      }
+      
+      .idcindex-3 img, .idcindex-4 img {
+        width: 50%;
+        height: 150px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+      }
+      
+      .padreof {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 150px;
+        gap: 20px;
+        
+      }
+      
+      .idcindex-1 div a img, .idcindex-2 div a img, .idcindex-3 div a img, .idcindex-4 div a img {
+        @include medidas(10%, 15px, none, none); /*mixins*/
+        justify-content: center;
+        
+      }
+      .contactanos{
+        text-align: center;
+      }
+
+}
+    @media screen and (max-width: 576px){
+    .ningr-1, .ningr-2, .ningr-3{
+        width: 25%;
+        float: left;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        
+      }
+      .seccioni{
+        width: 25%;
+        float: left;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        
+        
+        
+      }
+}
+@media screen and (max-width: 576px){
+  .grid-container{
+    display: grid;
+    width: 50%;
+    margin-left: 200px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "foto-1"
+    "foto-2"
+    "foto-3"
+    "foto-4"
+    ;
+  .foto-1{
+width: 50%;
+    height: 130px;
+
+  }
+  .foto-2{
+width: 50%;
+height: 130px;
+  }
+  .foto-3{
+width: 50%;
+height: 130px;
+  }
+  .foto-4{
+    width: 50%;
+height: 130px;
+  }
+}
+.mainmujer{
+  width: 100%;
+  height: 600px;
+}
+}
+  
+
+
+
+
+  @media screen and (max-width: 576px){
+    .containerhombre{
+      display: grid;
+      width: 50%;
+      margin-left: 200px;
+      margin-top: 0%;
+      margin-bottom: 50px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: 
+      "hombre-1"
+      "hombre-2"
+      "hombre-3"
+      "hombre-4"
+      ;
+    .hombre-1{
+  width: 60%;
+      height: 85px;
+  
+    }
+    .hombre-2{
+  width: 60%;
+  height: 85px;
+    }
+    .hombre-3{
+  width: 60%;
+  height: 85px;
+    }
+    .hombre-4{
+      width: 60%;
+  height: 85px;
+    }
+  }
+  }
+
+
+@media screen and (max-width: 576px){
+  .sobrenos{
+    display: flex;
+    flex-direction: column;
+  }
+  .imgnosotros{
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .pnosotros{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  
+  }
+
+
+
